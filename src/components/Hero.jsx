@@ -24,15 +24,37 @@ const Hero = () => {
             interfaces and web applications
           </p>
          <div className="flex flex-col mt-5 gap-3">
-         <a>
-            LinkedIn
-          </a>
-          <a>
-            Github
-          </a>
-          <a>
-            Instagram
-          </a>
+         <div className="flex flex-col space-y-4">
+  <a
+    href="https://www.linkedin.com/in/rudraksh-girdhar/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-2 text-blue-700 hover:text-blue-900"
+  >
+    <i className="fab fa-linkedin text-2xl"></i>
+    <span>LinkedIn</span>
+  </a>
+  <a
+    href="https://github.com/ruddi1234"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-2 text-gray-800 hover:text-gray-600"
+  >
+    <i className="fab fa-github text-2xl"></i>
+    <span>GitHub</span>
+  </a>
+  <a
+    href="https://www.instagram.com/ruddi_9192__"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-2 text-pink-600 hover:text-pink-400"
+  >
+    <i className="fab fa-instagram text-2xl"></i>
+    <span>Instagram</span>
+  </a>
+</div>
+
+
          </div>
         </div>
         <img src={ruddi}></img>

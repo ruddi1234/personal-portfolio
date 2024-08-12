@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
