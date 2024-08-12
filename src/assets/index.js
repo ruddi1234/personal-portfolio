@@ -32,8 +32,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import githubApp from "./githubApp.png";
+import ruddilogo from "./ruddilogo.png";
+import ruddi from "./ruddi.png";
+import smollanlogo from "./smollanlogo.svg"
 
 export {
+  smollanlogo,
+  ruddilogo,
+  ruddi,
   r,
   logo,
   backend,

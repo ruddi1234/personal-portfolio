@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { ruddi } from "../assets";
 
 const Hero = () => {
   return (
@@ -22,10 +23,22 @@ const Hero = () => {
             I develop 3D visuals, user <br className='sm:block hidden' />
             interfaces and web applications
           </p>
+         <div className="flex flex-col mt-5 gap-3">
+         <a>
+            LinkedIn
+          </a>
+          <a>
+            Github
+          </a>
+          <a>
+            Instagram
+          </a>
+         </div>
         </div>
+        <img src={ruddi}></img>
       </div>
 
-      <ComputersCanvas />
+     
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

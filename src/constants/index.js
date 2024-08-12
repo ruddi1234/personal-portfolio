@@ -25,6 +25,7 @@ import {
   tripguide,
   threejs,
   githubApp,
+  smollanlogo
 } from "../assets";
 
 export const navLinks = [
@@ -118,37 +119,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Web Developer",
+    company_name: "Smollan India (Client as Google)",
+    icon: smollanlogo,
+    iconBg: "#383E56",
+    date: "July 2024 - Current",
+    points: [
+      "Developed the One Hub App for Google Pixel 9, incorporating a content management system (CMS) provided by Google. Key skills utilized included Firebase integration and React.",
+      "Enabled Google employees to efficiently interact with the Firebase database in a user-friendly manner.",
+      "Led Angular conversions, creating comprehensive applications such as One Hub, Store Hub, and a comments feature, using Angular and React.",
+      " Leveraged UI libraries including MUI and Angular Material for an enhanced user experience.",
+    ],
+  },
+  {
     title: "Joint Seceratary",
     company_name: "ASSETS - DTU",
     icon: assetsLogo,
     iconBg: "#383E56",
     date: "Aug 2022 - Till Now",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
